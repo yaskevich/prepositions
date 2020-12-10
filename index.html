@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prepositions</title>
+		<style>
+			svg {
+				/*border: 1px solid black;*/
+			}
+			fieldset {
+				min-width: 0; 
+				width: 50%; 
+			}
+		</style>
+		<script src="d3.v3.min.js"></script>
+		<script src="prep.js"></script>		
+	</head>
+	<body>
+		<div id="simpleShapes" width="50%" height="300px">
+			<svg width="100%" height="450">
+				<text id="lbl" x="70" y="70" font-family="sans-serif" font-size="56px" stroke="silver" fill="red"></text>
+				<rect id="sq" x="400" y="200" width="100" height="100" stroke-width="4"  stroke="navy" fill="blue" />
+				<rect id="way" x="400" y="225" width="100" height="50" stroke-width="4"  stroke="white" fill="white" opacity="0"/>
+				<circle cx="100" cy="270" r="25" stroke="navy" fill="black" />
+				<rect id="sq2" x="600" y="200" width="100" height="100" stroke-width="4"  stroke="navy" fill="blue" opacity="0" />
+				<circle id="c2" cx="350" cy="270" r="25" stroke="navy" fill="red" opacity="0" />
+				<rect id="sq3" x="200" y="200" width="100" height="100" stroke-width="4"  stroke="navy" fill="blue" opacity="0" />
+				<line id="lineZa" x1="50" y1="150" x2="515" y2="250" style="stroke:gold;stroke-width:2" opacity="0"/>
+				<line id="lineP1" x1="50" y1="150" x2="397" y2="220" style="stroke:gold;stroke-width:2" opacity="0"/>
+				<line id="lineP2" x1="50" y1="150" x2="345" y2="270" style="stroke:gold;stroke-width:2" opacity="0"/>
+			</svg>
+			<div width="50%">
+				<fieldset id="ff">
+					<legend>Select the preposition. Choose wisely!</legend>					
+				</fieldset>
+			</div>
+		</div>
+	</body>
+</html>
